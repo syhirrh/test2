@@ -25,6 +25,7 @@
     }if (!(strlen($_POST["numtel"]) >0)) {
         $_POST["numtel"]= null; 
         echo '<p><b> You Forgot to Enter Your Phone Number! </b></p>';
+    }
 
     if (!(strlen($_POST["email"]) >0)) {
         $_POST["email"]= null; 
